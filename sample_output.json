@@ -1,0 +1,45 @@
+[
+	{
+		"cluster_id": 1,
+		"texts": [
+			{
+			"sentence": "CVE-2017-18350 Disclosure",
+			"keywords": ["CVE-2017-18350"]
+		},
+
+		{
+			"sentence": "CVE-2017-18350 Disclosure",
+			"keywords": ["CVE-2017-18350"]
+		},
+
+		{
+			"sentence": "CVE-2017-18350 Disclosure",
+			"keywords": ["CVE-2017-18350"]
+		}
+
+		]
+	},
+
+
+	{
+		"cluster_id": 2,
+		"texts": [
+			{
+			"sentence": "CVE-2017-18350 Disclosure",
+			"keywords": ["CVE-2017-18350"]
+		},
+
+		{
+			"sentence": "CVE-2017-18350 Disclosure",
+			"keywords": ["CVE-2017-18350"]
+		},
+
+		{
+			"sentence": "CVE-2017-18350 Disclosure",
+			"keywords": ["CVE-2017-18350"]
+		}
+
+		]
+	}
+]
+
