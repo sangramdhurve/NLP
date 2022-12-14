@@ -1,0 +1,24 @@
+PROBLEM STATEMENT:
+
+
+Text Clustering:
+
+1. The file text_to_cluster.txt contains around 650 lines. You need to cluster the lines/sentences into distinct groups using any clustering algorithm of your choice.
+You need to design and code your module in a way such that the user can give as input a path to a text file, which will contain sentences as given in the "text_to_cluster.txt" file. Your code should algorithimically decide the optimum number of clusters if the clustering algorithm you decide to use requires the number of clusters as input, for example kmeans requires k as input. So, for example, if you decide to choose kmeans, then your code should decide the optimum k and not take k as input from the end user. 
+
+The output of your clustering should be written to a json file in the format given in "sample_output.json".
+
+
+2. the file keywords.csv contains certain keywords. you need to look for the presence of keywords in each sentence.
+
+3. Along with the above keywords the text might contain CVEs (CVE stands for Common Vulnerabilities and Exposures.) . CVEs follow a certain fixed pattern. for example - CVE-2019-1429 , CVE-2019-15225 
+	use regular expressions to extract CVEs . 
+
+4. Keywords are related to each other directly or indirectly. You need to write a function called def is_related() . the function will take a list of tuples and two strings as arguments.
+the tuples indicate pairs of keywords that are related/connected to each other. 
+
+	example inputs - [(a,b), (b,c), (c, d), (d, e), (p,q), (x, y)] is the list of tuples where each tuple indicate pairs of connected keywords
+					a and c are the two other inputs
+
+	the function is_related should return true if a and c are related directly or indirectly. 
+	in the above example a and c are connected via b, hence the function should return True. 
